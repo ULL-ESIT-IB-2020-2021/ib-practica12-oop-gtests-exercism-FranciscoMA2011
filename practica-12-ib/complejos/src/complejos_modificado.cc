@@ -44,3 +44,4 @@ void Complejo::Subtract (std::vector <float> numero_complejo) {
     n_complejo_.at(1)-=numero_complejo.at(0);
     }
 };
+

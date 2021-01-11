@@ -19,11 +19,11 @@ class Complejo{
 
         std::vector <float> Subtract (std::vector <float> numero_complejo);
 
-        bool operator-(const Complejo& numero_complejo, float numero){
+        friend operator-(const Complejo& numero_complejo, float numero);{
             Complejo complejo_resultado;
-            complejo_resultado.at(0)=numero + numero_complejo.at(0);
-            complejo_resultado.at(1)=numero_complejo.at(1);
-            return(complejo_resultado);
+            complejo_resultado.n_complejo_.at(0)=numero + numero_complejo.at(0);
+            complejo_resultado.n_complejo_.at(1)=numero_complejo.at(1);
+            return(complejo_resultado.AccederComplejo());
         }
            
 };
