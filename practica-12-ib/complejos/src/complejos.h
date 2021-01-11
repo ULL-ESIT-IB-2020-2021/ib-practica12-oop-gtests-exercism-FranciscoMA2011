@@ -9,9 +9,9 @@ class Complejo{
 
         bool ComprobarComplejo (std::vector <float> numero_complejo);
 
-        float ObtenerReal (std::vector <float> numero_complejo){if (ComprobarComplejo(numero_complejo)=true){return (numero_complejo.at(0);)};};
+        float ObtenerReal (std::vector <float> numero_complejo){if (ComprobarComplejo(numero_complejo)=true){return (numero_complejo.at(0));};
 
-        float ObtenerImaginaria (std::vector <float> numero_complejo){if (ComprobarComplejo(numero_complejo)=true){return (numero_complejo.at(1);)};};
+        float ObtenerImaginaria (std::vector <float> numero_complejo){if (ComprobarComplejo(numero_complejo)=true){return (numero_complejo.at(1));};};
 
         void Print (std::vector <float> numero_complejo);
 
@@ -19,4 +19,4 @@ class Complejo{
 
         std::vector <float> Subtract (std::vector <float> numero_complejo);
 };
-#endif
+#endif//Espera una declaración, aunque ; está colocado y el resto del header es correcto

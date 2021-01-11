@@ -7,7 +7,8 @@
   * @author Francisco Marqués Armas alu0101438412@ull.es
   * @date 27 Dic 2020
   * @brief Definición de métodos varios de la clase Fecha
-  * @bug Ninguno a día de 10/11/2021
+  * @bug No se reconoce el vector como argumento, lo cual causa que el programa no se compile.
+  * "Declaración esperada", cada vez que se ve el programa aparece un número de errores diferente 10/12/2021
   * @see https://stackoverflow/questions/1280463/sorting-a-vector-of-custom-objects
   */
 #include <iostream>

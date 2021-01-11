@@ -15,13 +15,15 @@
 #include <fstream>
 #include <vector>
 #include "tools.h"
-#include "fechas.h"
+#include "complejos.h"
 int main(int argc, char* *argv){
     Usage(argc, argv);
-    Complejo complejo_1.Add({0.0,0.0});
-    Complejo complejo_2.Add({-1,10});
-    complejo_1.add{AccederComplejo(complejo_2)};
-    complejo_1.Print();
+    Complejo complejo_1;
+    Complejo complejo_2;
+    complejo_1.Add({0.0,0.0});
+    complejo_2.Add({-1,10});
+    complejo_1.Add(complejo_2.AccederComplejo());
+    complejo_1.Print(complejo_2.AccederComplejo());
     complejo_2.Subtract({-1,10});
-    complejo_2.Print();
+    complejo_2.Print(complejo_1.AccederComplejo());
 }
