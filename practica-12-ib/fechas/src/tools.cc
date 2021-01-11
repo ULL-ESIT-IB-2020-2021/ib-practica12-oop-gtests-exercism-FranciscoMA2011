@@ -23,7 +23,7 @@
 void Usage (int argc, char *argv[]){
     if (argc!=3){
         std::cout<< argv[0]<<"-- Gestión de fechas \n";
-        std::cout<<"Modo de uso: "<<argv[0]<<" ./fechas fichero_entrada.txt fichero_salida.txt \n";
+        std::cout<<"Modo de uso: "<<argv[0]<<" ./main_program fichero_entrada.txt fichero_salida.txt \n";
         std::cout<<" Pruebe " << argv[0] <<" --help para más información \n";
             exit(EXIT_SUCCESS);
     }

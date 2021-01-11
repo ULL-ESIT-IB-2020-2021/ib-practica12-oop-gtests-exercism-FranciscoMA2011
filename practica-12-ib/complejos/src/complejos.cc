@@ -21,14 +21,14 @@
 
 void Complejo::Print (){
     std::cout<<"La representación binómica del número complejo es: "<<n_complejo_.at(0)<<" + "<<n_complejo_.at(1)<<"i"<<"\n";
-};
+}
 
 void Complejo::Add (std::vector <float> numero_complejo) {
     if ComprobarComplejo(){
     n_complejo_.at(0)+=numero_complejo.at(0);
     n_complejo_.at(1)+=numero_complejo.at(0);
     }
-};
+}
 
 bool Complejo::ComprobarComplejo (std::vector <float> numero_complejo){
     if(typeid(numero_complejo.at(0)).name()=="float"&&typeid(numero_complejo.at(1)).name()=="float"&&numero_complejo.size()<=2){
@@ -43,4 +43,4 @@ void Complejo::Subtract (std::vector <float> numero_complejo) {
     n_complejo_.at(0)-=numero_complejo.at(0);
     n_complejo_.at(1)-=numero_complejo.at(0);
     }
-};
+}

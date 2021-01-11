@@ -57,6 +57,8 @@ add_executable(runTests
 add_executable(user_program
     src/complejos.cc
     src/complejos.h
+    src/complejos_modificado.cc
+    src/complejos_modificado.h
     src/tools.cc
     src/tools.cc
     src/tools.h
