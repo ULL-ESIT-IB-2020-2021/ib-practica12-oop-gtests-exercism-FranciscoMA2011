@@ -6,9 +6,8 @@
   *
   * @author Francisco Marqués Armas alu0101438412@ull.es
   * @date 27 Dic 2020
-  * @brief El programa le permite averiguar el número seleccionado de fechas posteriores
-  * a la introducida, con un día de diferencia entre fechas sucesivas
-  * @bug Ninguno a día de 29/12/2020
+  * @brief Definición de métodos varios de la clase Fecha
+  * @bug Ninguno a día de 10/11/2021
   * @see https://stackoverflow/questions/1280463/sorting-a-vector-of-custom-objects
   */
 #include <iostream>
@@ -19,7 +18,6 @@
 
 #include "tools.h"
 #include "fechas.h"
-#include <stdlib.h> //exit
 
 int Fecha::ObtenerDia(std::string fecha){//Definición de método
     int index=fecha.find_first_of("/");
